@@ -1,0 +1,17 @@
+{
+    "manifest_version" : 2,
+    "name" : "Halloween",
+    "version" : "1.0",
+    "description" : "A halloween-based chrome extension",
+   "icons" : {
+    //    "128" : "img/icons128.png",
+    //    "48" : "img/icons48.png",
+    //    "16" : "img/icons16.png"
+    
+    },
+    "browser_action" : {
+        "default_icon" : "pngegg.png",
+        "default_popup" : "halloween.html"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
